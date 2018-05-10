@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="first_question">1. Android is initially developed by</string>
+</resources>
