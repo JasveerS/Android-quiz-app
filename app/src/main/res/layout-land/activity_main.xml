@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="@drawable/alfaback"
+        android:scaleType="centerCrop"
+        android:src="@drawable/back"
+
+        />
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="383dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/quizapp" />
+
+    <EditText
+        android:layout_above="@+id/start_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter Your Name" />
+
+    <Button
+        android:id="@+id/start_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/button_design"
+        android:elevation="6dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Start Quiz"
+        android:textColor="#FFF9C4"
+        android:textSize="22sp" />
+
+</RelativeLayout>
