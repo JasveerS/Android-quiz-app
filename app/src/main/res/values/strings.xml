@@ -1,4 +1,24 @@
 <resources>
     <string name="app_name">Quiz App</string>
     <string name="first_question">1. Android is initially developed by</string>
+    <string name="uset_name_here">User Name Here</string>
+    <string name="google_inc">Google Inc</string>
+    <string name="apple_inc">Apple Inc</string>
+    <string name="open_handset_alliance">Open Handset Alliance</string>
+    <string name="second_question">2. The basic building element of Android\'s user interface is called</string>
+    <string name="content_provider">1. ContentProvider</string>
+    <string name="view">2. View</string>
+    <string name="view_group">3. ViewGroup</string>
+    <string name="layout">4. Layout</string>
+    <string name="enter_your_answer_here">Enter your answer here</string>
+    <string name="third_question">3. Which features are considered while creating android application?</string>
+    <string name="screen_size">Screen Size</string>
+    <string name="platform_version">Platform Version</string>
+    <string name="device_features">Device features</string>
+    <string name="none_of_the_above">None of the above</string>
+    <string name="fourth_question">4. In Android, an XML layout file is used to design the contents of the user interface screen</string>
+    <string name="fifth_question">4. In Android, an XML layout file is used to design the contents of the user interface screen</string>
+    <string name="submit_your_answers">Submit Your Answers</string>
+    <string name="false_option">False</string>
+    <string name="true_option">True</string>
 </resources>
